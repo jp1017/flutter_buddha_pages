@@ -51088,7 +51088,8 @@ i=r
 m=H.S(i)
 if(d!=null)K.d_(d,!1).fz("\u8fd4\u56de")
 Q.bV("showToast","\u7f51\u7edc\u6545\u969c")
-F.nw(null," e ",J.bc(m))
+l=m
+F.nw(null," e ",l==null?null:J.bc(l))
 if(f!=null)f.$0()
 u=5
 break
@@ -51112,7 +51113,8 @@ l=m[m.length-1]
 p=Y.adU(P.az(["file",K.aez(d,R.a7L("image",J.acB(q,".")[1],null),l)],n,null))}catch(i){o=H.S(i)
 if(c!=null)K.d_(c,!1).fz("\u8fd4\u56de")
 Q.bV("showToast","\u7f51\u7edc\u6545\u969c")
-F.nw(null," e ",J.bc(o))
+n=o
+F.nw(null," e ",n==null?null:J.bc(n))
 if(j!=null)j.$0()}return P.O(null,t)}})
 return P.P($async$xW,t)},
 OI:function(a){if(a==null||a<0)return""
